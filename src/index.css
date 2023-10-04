@@ -1,0 +1,45 @@
+body {
+  background-color: rgba(18, 18, 18, 1);
+  color: white;
+  font-family: sans-serif;
+}
+
+input.input-busqueda::placeholder {
+  color: #6c757d
+}
+
+/* Swiper */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contenerdorTarjeta {
+  overflow: hidden;
+}
+.imagen{
+  transition: transform 500ms;
+}
+
+.imagen:hover {
+  transform: scale(1.1);
+}
