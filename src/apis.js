@@ -90,6 +90,34 @@ export const apiTrending = [
         titulo: "Robando a la novia",
         literatura: "Comic",
         imagen: "robandoNovia.webp"
+    },{
+        titulo: "Cambio de estaciones",
+        literatura: "Comic",
+        imagen: "https://yugenmangas.lat/_next/image?url=https%3A%2F%2Fmedia.yugenmangas.com%2Ffile%2FzFSsPf%2Fcovers%2F4c1febb0-afbf-42ff-b411-d7e6e13c6e24.jpg&w=64&q=75"
+    },{
+        titulo: "La emperatiz quiere evitar al...",
+        literatura: "Comic",
+        imagen: "https://yugenmangas.lat/_next/image?url=https%3A%2F%2Fmedia.yugenmangas.com%2Ffile%2FzFSsPf%2Fcovers%2F7e4977a8-1dec-4018-9f8d-e4e3317ea399.jpg&w=64&q=75"
+    },{
+        titulo: "El cielo de una gata blanca",
+        literatura: "Comic",
+        imagen: "https://yugenmangas.lat/_next/image?url=https%3A%2F%2Fmedia.yugenmangas.com%2Ffile%2FzFSsPf%2Fcovers%2F68ccfcde-fece-4f7d-b475-456cde7f794a.jpg&w=64&q=75"
+    },{
+        titulo: "La emperatiz se volvió a casar",
+        literatura: "Comic",
+        imagen: "https://yugenmangas.lat/_next/image?url=https%3A%2F%2Fmedia.yugenmangas.com%2Ffile%2FzFSsPf%2Fcovers%2Faece4e04-1727-4369-a1d2-382562c052cb.jpg&w=64&q=75"
+    },{
+        titulo: "Lucia",
+        literatura: "Comic",
+        imagen: "https://yugenmangas.lat/_next/image?url=https%3A%2F%2Fmedia.yugenmangas.com%2Ffile%2FzFSsPf%2Fcovers%2Faabb31f8-577a-4909-8fad-38526520d0c8.webp&w=64&q=75"
+    },{
+        titulo: "Pense que esta seria una...",
+        literatura: "Comic",
+        imagen: "https://yugenmangas.lat/_next/image?url=https%3A%2F%2Fmedia.yugenmangas.com%2Ffile%2FzFSsPf%2Fcovers%2Fac17702d-0c24-4887-8221-9a3d50acdf94.jpg&w=64&q=75"
+    },{
+        titulo: "La doncella exclusiva de la...",
+        literatura: "Comic",
+        imagen: "https://yugenmangas.lat/_next/image?url=https%3A%2F%2Fmedia.yugenmangas.com%2Ffile%2FzFSsPf%2Fcovers%2F5ace2bcc-45ff-4ef9-83d4-7ebca1554b3d.png&w=64&q=75"
     }
 ]
 

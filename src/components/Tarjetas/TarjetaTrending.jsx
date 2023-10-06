@@ -16,8 +16,8 @@ export const TarjetaTrending = ({id, trending}) => {
                         </div>
                         <div className="col-9">
                             <p>{trending.titulo}</p>
-                            <div style={{ position: "absolute", background: "red" }} className='p-2 rounded-1'>
-                                <b style={{ width: "100%", height: "100%" }}>COMIC</b>
+                            <div style={{ position: "absolute", background: "red", padding:"6px" }} className='rounded-1'>
+                                <b style={{ width: "100%", height: "100%", fontSize:"15px" }}>COMIC</b>
                             </div>
                         </div>
                     </div>

@@ -30,7 +30,7 @@ export const Inicio = () => {
                 <div className="row">
                     <div className="col">
                         <Carrucel />
-                        <div className="row mt-4 m-2">
+                        <div className="row mt-4">
                             <div className="col-8">
                                 <p style={{ fontSize: "35px" }} className='mb-4'><b><FaFire /> Updates - Comics</b></p>
                                 <div className="row row-cols-4">
@@ -42,9 +42,9 @@ export const Inicio = () => {
                                     }
                                 </div>
                             </div>
-                            <div className="col-4">
-                                <p style={{ fontSize: "50px" }} className='text-center'><b><FaFireAlt /> Trending</b></p>
-                                <div className="row">
+                            <div className="col-4 mt-3 mb-4">
+                                <p style={{ fontSize: "50px" }} className='text-center mb-3'><b><FaFireAlt /> Trending</b></p>
+                                <div className="row mb-4">
                                     <Trending />
                                 </div>
                                 {

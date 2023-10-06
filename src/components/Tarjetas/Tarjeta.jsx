@@ -3,7 +3,7 @@ import React from 'react'
 export const Tarjeta = (props) => {
     return (
         <>
-            <div className="card border-0 bg-transparent text-light mb-1" style={{padding:"6px"}}>
+            <div className="card border-0 bg-transparent text-light" style={{padding:"6px"}}>
                 <div className='contenerdorTarjeta rounded-2' style={{ width: "100%", height: "320px" }}>
                     <img src={`${props.datos.imagen}`} className="card-img-top h-100 imagen" alt="..." />
                 </div>

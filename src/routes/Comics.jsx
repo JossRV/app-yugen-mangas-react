@@ -3,17 +3,14 @@ import { Menu } from '../components/Menu/Menu'
 import { apisComics } from '../apis'
 import { Tarjeta } from '../components/Tarjetas/Tarjeta'
 import { Footer } from '../components/Footer/Footer'
+import { Filtros } from '../components/Filtros/Filtros'
 
 export const Comics = () => {
   return (
     <>
       <Menu />
       <div className="container">
-        <div className="row">
-          <div className="col">
-
-          </div>
-        </div>
+        <Filtros />
         <div className="row">
           <div className="col">
             <div className="row row-cols-6">
@@ -27,7 +24,7 @@ export const Comics = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   )
 }

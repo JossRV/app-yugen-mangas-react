@@ -3,6 +3,7 @@ import { Menu } from '../components/Menu/Menu'
 import { apisNovels } from '../apis'
 import { Tarjeta } from '../components/Tarjetas/Tarjeta'
 import { Footer } from '../components/Footer/Footer'
+import { Filtros } from '../components/Filtros/Filtros'
 
 
 export const Novelas = () => {
@@ -10,11 +11,7 @@ export const Novelas = () => {
         <>
             <Menu />
             <div className="container">
-                <div className="row ">
-                    <div className="col">
-
-                    </div>
-                </div>
+                <Filtros />
                 <div className="row">
                     <div className="row row-cols-6">
                         {
@@ -26,7 +23,7 @@ export const Novelas = () => {
                     </div>
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </>
     )
 }
