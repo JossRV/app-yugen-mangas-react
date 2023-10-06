@@ -31,9 +31,9 @@ export const Inicio = () => {
                     <div className="col">
                         <Carrucel />
                         <div className="row mt-4">
-                            <div className="col-8">
+                            <div className="col-xl-8 col-lg-12 col-md-12 col-sm-12">
                                 <p style={{ fontSize: "35px" }} className='mb-4'><b><FaFire /> Updates - Comics</b></p>
-                                <div className="row row-cols-4">
+                                <div className="row row-cols-sm-2 row-cols-md-4 row-cols-lg-4 row-cols-2">
                                     {
                                         apisComics.map((datos, index) => {
                                             // console.log(datos)
@@ -42,7 +42,7 @@ export const Inicio = () => {
                                     }
                                 </div>
                             </div>
-                            <div className="col-4 mt-3 mb-4">
+                            <div className="col-xl-4 col-lg-12 col-md-12 col-sm-12 mt-3 mb-4">
                                 <p style={{ fontSize: "50px" }} className='text-center mb-3'><b><FaFireAlt /> Trending</b></p>
                                 <div className="row mb-4">
                                     <Trending />
@@ -70,7 +70,7 @@ export const Inicio = () => {
                 </div>
                 <div className="row">
                     <p style={{ fontSize: "35px" }} className='mb-3'><b><FaFire /> Updates - Novels</b></p>
-                    <div className="row row-cols-6">
+                    <div className="row row-cols-lg-6 row-cols-md-4 row-cols-sm-2 row-cols-2">
                         {
                             apisNovels.map((datos, index) => {
                                 // console.log(datos)

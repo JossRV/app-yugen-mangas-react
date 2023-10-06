@@ -13,7 +13,7 @@ export const Novelas = () => {
             <div className="container">
                 <Filtros />
                 <div className="row">
-                    <div className="row row-cols-6">
+                    <div className="row row-cols-lg-6 row-cols-md-4 row-cols-sm-2">
                         {
                             apisNovels.map((datos, index) => {
                                 // console.log(datos)

@@ -13,7 +13,7 @@ export const Comics = () => {
         <Filtros />
         <div className="row">
           <div className="col">
-            <div className="row row-cols-6">
+            <div className="row row-cols-lg-6 row-cols-md-4 row-cols-sm-2">
               {
                 apisComics.map((datos, index) => {
                   // console.log(datos)
