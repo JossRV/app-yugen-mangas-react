@@ -19,7 +19,7 @@ const router = createBrowserRouter([
     // propiedad para especificar el componente que deseamos cargar
     element: <Inicio/>,
     // mostrar una vista de error en caso de no encontrar la ruta existente
-    errorElement: <h1>Error</h1>
+    errorElement: <h1>Error 404 pagina no existente</h1>
   },{
     path: '/comics',
     element: <Comics/>

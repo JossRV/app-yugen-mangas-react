@@ -32,7 +32,7 @@ export const Inicio = () => {
                         <Carrucel />
                         <div className="row mt-4 m-2">
                             <div className="col-8">
-                                <p style={{ fontSize: "35px" }} className='mb-4'><b><FaFire />Updates - Comics</b></p>
+                                <p style={{ fontSize: "35px" }} className='mb-4'><b><FaFire /> Updates - Comics</b></p>
                                 <div className="row row-cols-4">
                                     {
                                         apisComics.map((datos, index) => {
@@ -43,7 +43,7 @@ export const Inicio = () => {
                                 </div>
                             </div>
                             <div className="col-4">
-                                <p style={{ fontSize: "50px" }} className='text-center'><b><FaFireAlt />Trending</b></p>
+                                <p style={{ fontSize: "50px" }} className='text-center'><b><FaFireAlt /> Trending</b></p>
                                 <div className="row">
                                     <Trending />
                                 </div>
@@ -59,7 +59,7 @@ export const Inicio = () => {
                                 }
                             </div>
                         </div>
-                        <div className="row mb-5">
+                        <div className="row mb-4">
                             <div className="col-3"></div>
                             <div className="col">
                                 <Link className='btn bg-black text-light p-3' to={'/comics'} style={{ fontSize: "13px" }} >VER TODAS LAS SERIES</Link>
@@ -69,7 +69,7 @@ export const Inicio = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <p style={{ fontSize: "35px" }} className='mb-4'><b><FaFire />Updates - Novels</b></p>
+                    <p style={{ fontSize: "35px" }} className='mb-3'><b><FaFire /> Updates - Novels</b></p>
                     <div className="row row-cols-6">
                         {
                             apisNovels.map((datos, index) => {
